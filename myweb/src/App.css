@@ -1,0 +1,14 @@
+.html{
+  margin: 0cap;
+  margin-top: 0%;
+}
+#top_bar{
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  top: 0;
+  color: #d23b3b;
+  background-color: rgb(76, 68, 114);
+  text-align: center;
+  text-decoration-line: none;
+}
