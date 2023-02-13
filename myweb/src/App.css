@@ -8,7 +8,99 @@
   width: 100%;
   top: 0;
   color: #d23b3b;
-  background-color: rgb(76, 68, 114);
+  /* background-color: rgb(76, 68, 114); */
   text-align: center;
   text-decoration-line: none;
+}
+#top_bar_logo{
+  
+  float: left;
+  width: 20%;
+  height: 10vh;
+  background-color: rgb(11, 41, 24);
+}
+.my_logo{
+  position: absolute;
+  left: 0.5vh;
+  height: 6vh;
+  width: 6vw;
+  top: 2vh;
+}
+#logo_text{
+  position: relative;
+  display: block;
+  float: right;
+  top: 2vh;
+}
+#top_bar_lists{
+  float: left;
+  width: 70%;
+  height: 10vh;
+}
+#top_bar_login{
+  float: right;
+  width: 10%;
+  height: 10vh;
+  background-color: rgb(63, 62, 62);
+}
+#top_bar_login #top_login_button{
+  position: relative;
+  top: 2vh;
+}
+#app_context{
+  position: absolute;
+  top: 10vh;
+  height: calc(100% - 10vh - 1.5em - 2px);
+  width: 100%;
+  margin-top: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1px;
+}
+#context1{
+  float: left;
+  height: calc(40vh - 1px);
+  width: 33vw;
+  margin: 0%;
+  background-color: aquamarine;
+}
+#context2{
+  float: left;
+  height: calc(40vh - 1px);
+  width: 34vw;
+  margin: 0%;
+  background-color: blueviolet;
+}
+#context3{
+  float: left;
+  height: calc(40vh - 1px);
+  width: 33vw;
+  margin: 0%;
+  background-color: aqua;
+}
+#context4{
+  float: left;
+  height: calc(50vh - 1px - 1.5em);
+  width: 33vw;
+  background-color: aqua;
+}
+#context5{
+  float: left;
+  height: calc(50vh - 1px - 1.5em);
+  width: 34vw;
+  background-color: aquamarine;
+}
+#context6{
+  float: left;
+  height: calc(50vh - 1px - 1.5em);
+  width: 33vw;
+  background-color: blueviolet;
+}
+#foot_bar{
+  position: absolute;
+  bottom: 0vh;
+  background-color: gray;
+  width: 100%;
+  height: 1.5em;
+  text-align: center;
 }
